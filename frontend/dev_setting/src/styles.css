@@ -4,9 +4,7 @@
   color: #1f2937;
 }
 
-body {
-  margin: 0;
-}
+body { margin: 0; }
 
 .container {
   max-width: 1024px;
@@ -51,6 +49,7 @@ h1 {
 }
 
 label {
+  display: block; /* 수정본 반영 */
   font-weight: 600;
   margin-bottom: 0.25rem;
 }
@@ -77,6 +76,17 @@ button:disabled {
   background: #9ca3af;
 }
 
+/* 툴바 */
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+  gap: 0.75rem;
+}
+
+.toolbar button { background: #6b7280; }
+
+/* 상태 태그 */
 .status-tag {
   display: inline-flex;
   align-items: center;
@@ -88,6 +98,7 @@ button:disabled {
   font-weight: 600;
 }
 
+/* 메시지 */
 .error {
   color: #dc2626;
   margin-top: 0.5rem;

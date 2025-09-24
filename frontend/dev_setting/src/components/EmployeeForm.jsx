@@ -60,7 +60,7 @@ export default function EmployeeForm({ employee, onSubmit, statusOptions }) {
 
   return (
     <section className="form-section">
-      <h2>선택한 직원 정보 수정</h2>
+      <h2>내 정보 수정</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">이름</label>
